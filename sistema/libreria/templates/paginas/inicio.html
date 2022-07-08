@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %}
+
+{% block contenido %}
+
+<div class="bg-light">
+    <div class="container">
+        <h1 class="display-4 text-center">Bienvenidos al sitio de la libreria</h1>
+        <div align="center"><img src="https://fondosmil.com/fondo/1681.jpg" height="350" width="600"></div>
+        <p class="lead">Empezar a ingresar libros</p>
+        <hr class="my-1">
+        <div align="center">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="{% url 'libros' %}" role="button">Empezar</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

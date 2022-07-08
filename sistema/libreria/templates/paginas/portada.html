@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %}
+
+{% block contenido %}
+
+<div class="p-1 bg-light">
+    <div class="container">
+        <h1 class="display-4 text-center"><img src="https://www.uttehuacan.edu.mx/web/images/logo_2015.png" height="50">Universidad tecnológica de Tehuacan</h1>
+        <hr class="my-2">
+        <h1 class="display-5 text-center">Desarrollo y Gestión de Software</h1>
+        <br>
+        <h1 class="display-5 text-center">Desarrollo para Dispositivos Inteligentes</h1>
+        <br>
+        <h1 class="display-5 text-center">Profr. Héctor Bernardo Ortega Ginés</h1>
+        <br>
+        <h1 class="display-5 text-center">Alumno. Víctor Manuel Ortiz Álvarez</h1>
+        <br>
+        <div align="center">
+            <p class="lead">
+                <a class="btn btn-success btn-lg text" href="{% url 'inicio' %}" role="button">Continuar</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
